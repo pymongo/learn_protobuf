@@ -5,7 +5,7 @@ authors = ["wuaoxiang"]
 edition = "2018"
 
 [dependencies]
-protobuf = "*"
+protobuf = { version="*", features=["bytes"] }
 
 [build-dependencies]
 protobuf-codegen-pure = "*"
