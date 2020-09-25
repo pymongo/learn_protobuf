@@ -1,0 +1,11 @@
+[package]
+name = "learn_protobuf"
+version = "0.1.0"
+authors = ["wuaoxiang"]
+edition = "2018"
+
+[dependencies]
+protobuf = "*"
+
+[build-dependencies]
+protobuf-codegen-pure = "*"
